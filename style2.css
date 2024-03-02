@@ -1,0 +1,246 @@
+.navbar{
+    margin: 0;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F6AF7;
+    color: #ffffff;
+    align-items: center;   
+}
+#h1_div{
+    margin-left: 5rem;   
+}
+.elements ul{
+    margin: 0;
+    font-size: 36px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elements li{
+    margin-right: 20px; 
+    font-weight: 400; 
+    padding:10px;    
+}
+.search-box {
+    top: 5px;
+    position: relative;
+    width: 20vw;
+    height: 5vh;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 63px;
+    padding: 5px;
+}
+.search-input {  
+    position: absolute;
+    margin-left: 15px;
+    font-weight: 400;
+    border: none;
+    outline: 0;
+    font-size: 36px;
+    color: #9F9F9F;
+    width:80%; 
+    border-radius: 5px;
+}
+.search-icon {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    right: 2rem;
+    font-size: 36px;
+    transform: translateY(-50%);
+    color: #ADADAD
+}
+.elements{
+    display: flex;
+    margin-right: 2rem;
+}
+.Vector_img{
+    margin-right: 5rem;
+}
+.total_body{
+    position: relative;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+    border: Mixed solid #FFFFFF;
+}
+#code_img{
+    margin-left: 2rem;
+    width: 456px;
+    height: 507px;
+    border-radius: 20px;
+}
+.first_row{
+    display: flex;
+    gap: 2rem;
+}
+.first_right{
+    width: 80vw;
+    height: 507px;
+    margin-top: 0px;
+    margin-right:1rem;
+    background-color: #e5d8ff;
+    border-radius: 20px;
+    border: 6px solid #FFFFFF;
+    box-shadow: 3px 5px 27px 0px #00000040 inset;
+}
+.first_right p{
+    color: #6F7373;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2rem 2rem; 
+}
+.second_row{
+    margin-top: 10rem;
+    display: flex;
+    gap: 2rem;
+    justify-content:space-between;
+}
+#box1,#box2,#box3,#box4{
+    width: 30vw;
+    height:15vh; 
+    border-radius: 11px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 700;    
+}
+.second_row p{
+    padding-left: 2rem;
+    line-height: 1rem;
+}
+#box1{
+    
+    background-color:#929DFF;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+#box2{
+    background-color: #734CF2;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+#box3{
+    background-color: #D288FF;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+#box4{
+    background-color: #000000;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+.third_row{
+    height: 70vh;
+    margin-top: 10rem;
+    background-color: #483EFF;
+    border-radius: 21px;
+    display: flex;
+}
+.third_left{
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left1,#left2,#left3{
+    width:25vw;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 22px;
+}
+.third_left p{
+    text-align: center;
+    padding: 1rem;
+}
+#left1{
+    background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px #00000063;
+}
+#left2{
+    color: #FFFFFF;
+    background-color: #483EFF;
+    border: 5px solid #FFFFFF;
+}
+#left3{
+    color: #FFFFFF;
+    background-color: #483EFF;
+    border: 5px solid #FFFFFF;
+}
+.third_right{
+    width: 70%;
+    height:90%;
+    font-size: 1.5rem;
+    position: relative;
+    background-color: #ffffff;
+    align-content: space-around;
+    margin: 2rem 2rem;
+    border-radius: 19px ;
+}
+.third_right p{
+    margin: 4rem 0rem 0rem 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.third_right ul{
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    white-space: pre;
+    margin: 10px;      
+}
+.third_right li{
+    list-style-type: none;
+    padding: 1rem;
+    margin-left: 1rem;   
+}
+.third_right span{
+    display: inline-block;
+    width:100px;
+}
+.button_next{
+    float: right;
+    position:absolute;
+    left:75%;
+    top: 80%;
+    width: 10vw;
+    height: 7.5vh;
+    background-color: #000000;
+    border-radius: 9px;
+}
+.button_next p,i{
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+    font-family: Roboto;
+    color: #FFFFFF;
+    text-align: center;
+    align-content: center;
+}
+.sticky_align{
+    position: absolute;
+    position: sticky;
+    float: right;
+    bottom: 5px;    
+}
+.socialDiv{
+    position:absolute;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    top: 10px;
+    right:10px;
+    float: right;
+    gap: 1rem;    
+}
+.whatsapp,.facebook,.twitter{
+    width: 88px;
+    height: 83px;
+    display: grid;
+    place-items: center;
+    border-radius: 11px;
+    border: 3px solid #000000;  
+}
+
